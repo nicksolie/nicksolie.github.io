@@ -50,7 +50,7 @@
         <div id="lead-content">
             <h1>Nick Solie</h1>
             <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <a href="./NickSolieResume.pdf" target="_blank" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -84,9 +84,27 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+              <!-- Articles Project -->
+              <div class="project shadow-large">
+                  <div class="project-image" style="border-right: 1px solid black;">
+                      <img src="images/articles.png" width="300" height="200">
+                  </div>
+                  <!-- End .project-image -->
+                  <div class="project-info">
+                      <h3>Articles</h3>
+                      <p>
+                          A web app to search through the Library of Congress’s digitized newspaper archive.. Users can search with Chronicling America’s API to find high resolution PDFs of various newspaper publications dating back to the 1600s.
+                      </p>
+                      <a href="https://nicksolie.github.io/articles-react/" target="_blank">View Project</a>
+                  </div>
+                  <!-- End .project-info -->
+              </div>
+              <!-- End .project -->
+
+              <!-- Fishbowl! Project -->
               <div class="project shadow-large">
                   <div class="project-image">
-                      <img src="images/fishbowl.jpeg" width="300" height="300">
+                      <img src="images/fishbowl.jpeg" width="300" height="200">
                   </div>
                   <!-- End .project-image -->
                   <div class="project-info">
@@ -100,21 +118,21 @@
               </div>
               <!-- End .project -->
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/tic-tac-toe.jpg" width="300" height="300">
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Tic-Tac-Toe</h3>
-                        <p>
-                            A single page tic-tac-toe application to play against yourself or with a friend.
-                        </p>
-                        <a href="https://nicksolie.github.io/tiktactoe/" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+              <div class="project shadow-large">
+                  <div class="project-image">
+                      <img src="images/tic-tac-toe.jpg" width="300" height="200">
+                  </div>
+                  <!-- End .project-image -->
+                  <div class="project-info">
+                      <h3>Tic-Tac-Toe</h3>
+                      <p>
+                        A single page tic-tac-toe application to play against yourself or with a friend.
+                      </p>
+                      <a href="https://nicksolie.github.io/tiktactoe/" target="_blank">View Project</a>
+                  </div>
+                  <!-- End .project-info -->
+              </div>
+              <!-- End .project -->
 
             </div>
         </div>
@@ -184,13 +202,12 @@
         <div class="education-block">
             <h3>Boston University</h3>
             <span class="education-date">Sept 2014 - May 2017</span>
-            <h4>Bachelor of Arts in history</h4>
-            <!-- Alpha Phi Omega (Community Service Organization)
-     Preformed 25-30 hours of community service per semester in Greater Boston.
-Vice President of the BU Zen Club
-     Helped organize meetings and bought snacks. -->
+            <h4>Bachelor of Arts in History</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+              1. Alpha Phi Omega (Community Service Organization): Performed 25-30 hours of community service per semester in Greater Boston.
+            </p>
+            <p>
+              2. Vice President of the BU Zen Club.
             </p>
         </div>
         <!-- End .education-block -->
@@ -209,19 +226,23 @@ Vice President of the BU Zen Club
         <ul>
             <li>JavaScript</li>
             <li>Node.js</li>
-            <li>React</li>
-            <li>Ruby</li>
             <li>Ruby on Rails</li>
+            <li>React</li>
+            <li>Python</li>
+            <li>Ruby</li>
+            <li>MongoDB</li>
+            <li>jQuery</li>
             <li>Git & GitHub</li>
+            <li>Heroku</li>
             <li>HTML</li>
             <li>CSS</li>
         </ul>
     </div>
     <!-- End #skills -->
 
-    <div id="contact">
+    <div class="container" id="contact">
         <h2>Get in Touch</h2>
-        <div id="contact-form">
+        <div id="contact-form" class="col-md-6">
             <form method="POST" action="https://formspree.io/nick.solie1@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
@@ -231,8 +252,14 @@ Vice President of the BU Zen Club
             </form>
         </div>
         <!-- End #contact-form -->
+        <div class="col-md-6">
+          <h2><a href="https://github.com/nicksolie" target="_blank"><i class="fa fa-github" style="font-size:48px;color:white;margin-right:10px;" aria-hidden="true"></i></a>     @nicksolie</h2>
+
+          <h2>  <a href="https://github.com/nicksolie" target="_blank"><i class="fa fa-linkedin" style="font-size:46px;color:white;margin-right:10px;margin-left:10px;" aria-hidden="true"></i></a>     @nick-solie</h2>
+
+          <h2><i class="fa fa-envelope" style="font-size:42px;color:white;margin-right:19px;margin-left:130px;" aria-hidden="true"></i>nick.solie1@gmail.com</h2>
+        </div>
     </div>
-    End #contact
 
     <footer>
         <div class="container">
@@ -250,7 +277,7 @@ Vice President of the BU Zen Club
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/nicksolie" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/nicksolie" target="_blank"><i class="fa fa-github"  aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
